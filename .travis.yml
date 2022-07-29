@@ -6,16 +6,7 @@ services:
   - mongodb
   - redi-server
 env:
-  - MONGO_URL=mongodb+srv://user_key:jxOhGQ5oxmwNbOUM@cluster0.ct7pi.mongodb.net/Mensajeria
-  - JWT_SECRET_TOKEN='09f26e402586e2faa8da4c98a35f1b20d6b033c6097befa8be3486a829587fe2f90a832bd3ff9d42710a4da095a2ce285b009f0c3730cd9b8e1af3eb84df6611'
-  - JWT_EXPIRATION_TIME=999999999
-  - EMAIL_HOST = smtp.mailtrap.io
-  - EMAIL_PORT = 2525
-  - AUTH_USER = 2dcd8c1fee98c9
-  - PASS_USER = 6594ff1d138cf1
-  - LOGIN_ADMIN_URL = http://localhost:8080
-  - LOGIN_ADMIN_CLIENT_URL = http://localhost:8082
-  - PORT = 3000
+  - MONGO_URL=mongodb+srv://user_key:jxOhGQ5oxmwNbOUM@cluster0.ct7pi.mongodb.net/Mensajeria - JWT_SECRET_TOKEN='09f26e402586e2faa8da4c98a35f1b20d6b033c6097befa8be3486a829587fe2f90a832bd3ff9d42710a4da095a2ce285b009f0c3730cd9b8e1af3eb84df6611' - JWT_EXPIRATION_TIME=999999999 - EMAIL_HOST = smtp.mailtrap.io - EMAIL_PORT = 2525 - AUTH_USER = 2dcd8c1fee98c9 - PASS_USER = 6594ff1d138cf1 - LOGIN_ADMIN_URL = http://localhost:8080 - LOGIN_ADMIN_CLIENT_URL = http://localhost:8082 - PORT = 3000
 cache:
   directories:
     - node_modules
